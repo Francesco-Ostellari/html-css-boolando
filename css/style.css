@@ -21,17 +21,18 @@ body {
   margin: 0 auto;
 }
 
+/* layout immagine */
 .img-prodotto {
   width: 380.94px;
   /* height: 600px; */
   /* background-color: red; */
-  margin-right: 10px;
+  margin: 40px 10px 10px 0;
   float: left;
-  margin-bottom: 10px;
   position: relative;
-  margin-top: 40px;
 }
+/* /layout immagine */
 
+/* cuore-preferiti */
 .preferiti {
   width: 30px;
   height: 30px;
@@ -46,7 +47,9 @@ body {
   line-height: 30px;
   font-size: 20px;
 }
+/* /cuore-preferiti */
 
+/* sconto */
 .container-sconto-percentuale {
   background-color: rgb(250, 50, 50);
   display: inline-block;
@@ -65,6 +68,9 @@ body {
   text-align: center;
 }
 
+/* /sconto */
+
+/* sostenibilità */
 .container-sostenibilità {
   background-color: green;
   width: 110px;
@@ -90,20 +96,37 @@ body {
   z-index: 2;
   margin-left: 0;
 }
-.text-img{
+/* /sostenibilità */
+
+/* descrizione prodotto con prezzo */
+.text-img {
   width: 380.94px;
   height: 50px;
   /* background-color: seagreen; */
-  margin-right: 10px;
-  margin-top: 550px;
+  margin: 550px 10px 0 0;  
 }
 
+.sconto {
+  color: red;
+  font-weight: bold;
+}
+.prezzo-vero {
+  color: black;
+  text-decoration: line-through;
+}
+
+.titolo-prodotto {
+  font-weight: bold;
+}
+
+/* /descrizione prodotto con prezzo */
 .clearfix::after {
   content: '';
   display: table;
   clear: both;
 }
 
+/* img base */
 .base {
   height: 550px;
   position: absolute;
@@ -111,27 +134,16 @@ body {
   left: 0;
   z-index: 1;
  }
-
+/* /img base */
  .base:hover {
    display: none;
  }
 
+ /* img hover */
  .hover {
    height: 550px;
    position: absolute;
    top: 0;
    left: 0;
  }
-
- .sconto {
-   color: red;
-   font-weight: bold;
- }
- .prezzo-vero {
-   color: black;
-   text-decoration: line-through;
- }
-
- .titolo-prodotto {
-   font-weight: bold;
- }
+/* /img hover */
