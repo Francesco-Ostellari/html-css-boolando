@@ -20,7 +20,7 @@
 .img-prodotto {
   width: 380.94px;
   height: 600px;
-  background-color: red;
+  /* background-color: red; */
   margin-right: 10px;
   float: left;
   margin-bottom: 10px;
@@ -30,17 +30,67 @@
 .img-prodotto-right {
   width: 380.94px;
   height: 600px;
-  background-color: red;
+  /* background-color: red; */
   margin-right: 0;
   float: left;
   margin-bottom: 10px;
 }
 
+.preferiti {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: 2;
+}
+.hearts {
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+}
 
+.container-sconto-percentuale {
+  background-color: rgb(250, 50, 50);
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  z-index: 2;
+  line-height: 30px;
+}
+
+.sconto-percentuale{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container-sostenibilità {
+  background-color: green;
+  width: 140px;
+  height: 30px;
+  position: absolute;
+  bottom: 60px;
+  left: 50px;
+  z-index: 2;
+  line-height: 30px;
+  
+}
+
+.sostenibilità {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
 .text-img{
   width: 380.94px;
   height: 50px;
-  background-color: seagreen;
+  /* background-color: seagreen; */
   margin-right: 10px;
   margin-top: 550px;
 }
@@ -68,4 +118,17 @@
    position: absolute;
    top: 0;
    left: 0;
+ }
+
+ .sconto {
+   color: red;
+   font-weight: bold;
+ }
+ .prezzo-vero {
+   color: black;
+   text-decoration: line-through;
+ }
+
+ .titolo-prodotto {
+   font-weight: bold;
  }
