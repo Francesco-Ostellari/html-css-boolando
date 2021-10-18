@@ -24,6 +24,7 @@
   margin-right: 10px;
   float: left;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .img-prodotto-right {
@@ -52,6 +53,10 @@
 
 .base {
   height: 550px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
  }
 
  .base:hover {
@@ -60,4 +65,7 @@
 
  .hover {
    height: 550px;
+   position: absolute;
+   top: 0;
+   left: 0;
  }
